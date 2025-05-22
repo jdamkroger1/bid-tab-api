@@ -18,3 +18,4 @@ def home():
         return "✅ Successfully connected to the database!"
     except Exception as e:
         return f"❌ Database connection failed:<br><pre>{e}</pre>"
+Add test app.py for database connection
